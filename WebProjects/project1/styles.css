@@ -1,0 +1,20 @@
+/* styles.css */
+.container {
+  text-align: center;
+  margin-top: 100px;
+}
+
+p span {
+  font-size: 24px;
+  font-weight: bold; /*задаем жирный шрифт для счетчика*/
+}
+
+#clickButton {
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: blue;
+  color: #fff;
+  border: none; /*убираем рамку у кнопки*/
+  border-radius: 4px; /*добавляем скругление краев кнопки*/
+  cursor: pointer; /*при наведении на кнопку изменится курсор*/
+}

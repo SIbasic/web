@@ -1,0 +1,97 @@
+body {
+	margin: 0;
+	font-family: "Open Sans", sans-serif;
+}
+
+.container {
+	margin: 0px 166px;
+}
+
+.header {
+	background-image: url(../images/bg.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.header-line {
+	padding-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.header-logo {
+	padding-right: 200px;
+}
+
+.nav-item{
+	color: #fff;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 14px;
+
+	margin-right: 25px;
+
+	transition: color 0.3s linear;
+}
+
+.nav-item:hover {
+	color: #d81d1d;
+}
+
+.cart {
+	position: relative;
+
+	border-right: 1px solid #FFFFFF;
+	padding-right: 21px;
+	height: 51px;
+
+}
+
+.cart-img {
+	position: absolute;
+	top: 21px;
+
+}
+
+.num {
+	color: #fff;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 18px;
+
+	transition: color 0.3s linear;
+}
+
+.num:hover {
+	color: #d81d1d;
+}
+
+.phone-text {
+	color: #fff;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.phone-holder {
+	display: flex;
+	align-items: center;
+}
+
+.button {
+	background-color: #FF7400;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: none;
+	padding: 14px 18px;
+
+	transition: color 0.3s linear;
+	transition: color 0.3s linear;
+}
+
+.button:hover {
+	color: #894b17;
+	background-color: #d81d1d;
+}
